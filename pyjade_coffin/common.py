@@ -10,7 +10,7 @@ env = None
 class PyjadeCoffinEnvironment(CoffinEnvironment):
     """Override join_path() to enable relative template paths."""
     def join_path(self, template, parent):
-        return os.path.join(os.path.dirname(parent), template)
+        return os.path.normpath(os.path.join(os.path.dirname(parent), template))
 
 def get_env():
     """
