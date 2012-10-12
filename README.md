@@ -1,4 +1,4 @@
-# PyJadeCoffin Jade and Jinja2 template support for Django
+# PyJadeCoffin
 
 Jade and Jinja2 template support for Django using
 [PyJade](https://github.com/SyrusAkbary/pyjade)'s Jinja2 extension w/
