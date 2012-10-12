@@ -41,3 +41,10 @@ def get_env():
     return result
 
 env = get_env()
+
+
+# register pyjade jinja extension
+from coffin.template.library import Library
+from pyjade.ext.jinja import PyJadeExtension
+register = Library()
+register.tag(PyJadeExtension)
