@@ -1,0 +1,7 @@
+*.pyc
+/build
+.bzr*
+Coffin.egg-info
+/dist
+.*.swp
+/docs/_build

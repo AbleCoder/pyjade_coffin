@@ -1,0 +1,5 @@
+Django==1.4
+Jinja2==2.6
+Coffin==0.3.7
+pyjade==1.6
+nose==1.2.1
