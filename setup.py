@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(name='pyjade-coffin',
     version=".".join(map(str, __import__("pyjade_coffin").__version__)),
     description=('Jade and Jinja2 template support for Django using PyJade\'s'
-                 ' Jinja2 extension w/ coffin')
+                 ' Jinja2 extension w/ coffin'),
     author='Brandon Orther',
     author_email='an.able.coder@gmail.com',
     maintainer='Brandon Orther',
