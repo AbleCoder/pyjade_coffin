@@ -24,6 +24,15 @@ relative path includes (which requires changes to coffin's core components).
 
 - TODO
 
+Add this to templatetags module.
+```python
+# register pyjade jinja extension
+from coffin.template.library import Library
+from pyjade.ext.jinja import PyJadeExtension
+register = Library()
+register.tag(PyJadeExtension)
+```
+
 ## Using It
 
 - TODO
