@@ -1,6 +1,7 @@
 import os
 
 from coffin.common import CoffinEnvironment
+from app_settings import JINJA2_AUTOESCAPE
 
 
 __all__ = ('env',)
@@ -19,7 +20,7 @@ def get_env():
     from django.conf import settings
 
     kwargs = {
-        'autoescape': False, # turn off autoescape so pyjade can handle it
+        'autoescape': JINJA2_AUTOESCAPE,
     }
     kwargs.update(getattr(settings, 'JINJA2_ENVIRONMENT_OPTIONS', {}))
 
