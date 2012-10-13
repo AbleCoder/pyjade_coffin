@@ -1,2 +1,1 @@
-include setup.py MANIFEST.in AUTHORS README.md LICENSE
-global-exclude *~
+include setup.py CHANGE MANIFEST.in AUTHORS README.rst LICENSE
