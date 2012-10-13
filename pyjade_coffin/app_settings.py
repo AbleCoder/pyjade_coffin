@@ -5,4 +5,4 @@ from django.conf import settings
 JINJA2_AUTOESCAPE = getattr(settings, 'PYJADE_COFFIN_JINJA2_AUTOESCAPE', False)
 
 # enable jade support (by register pyjade extension) by default
-JADE_ENABLED = True
+JADE_ENABLED = getattr(settings, 'PYJADE_COFFIN_JADE_ENABLED', True)
